@@ -1,14 +1,5 @@
 $(function () {
 
-  // $('.slider-blog__inner').slick({
-  // 	arrows: false,
-  // 	dots: true,
-  // 	autoplay: true,
-  // 	autoplaySpeed: 3000,
-  // 	fade: true
-  // });
-
-
 
   $('.slider-blog__inner').slick({
     arrows: true,
@@ -17,7 +8,17 @@ $(function () {
     dots: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    fade: true
+    fade: true,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+
+          arrows: false
+
+        }
+      },
+
+    ]
   });
 
 
