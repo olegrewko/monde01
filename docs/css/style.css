@@ -22,6 +22,18 @@ li {
   margin: 0 auto;
 
 }
+.header {
+  width: 100%; 
+}
+.header__top {
+  position: fixed;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+}
 
 .header__top-inner {
     display: flex;
@@ -66,7 +78,7 @@ transition: all .4s;
 
 }
 .header__content {
- 
+  margin-top: 100px;
   margin: 0 auto;
   background-image: url('../img/Header-bg.jpg');
   background-repeat: no-repeat;
