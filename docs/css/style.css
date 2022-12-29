@@ -520,8 +520,8 @@ transition: all .3s;
   margin-left: 20px;
 }
 .slider-blog {
-  background-color: #000;
-  padding: 20px 0;
+  background-color: rgba(4, 4, 4, 1);
+  padding: 15px 0;
 }
 .slider-blog__item {
   padding: 0;
