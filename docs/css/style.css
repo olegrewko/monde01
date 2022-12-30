@@ -32,6 +32,7 @@ transition: all .4s;
   padding-top: 70px;
 }
 p {
+padding: 5px 0;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
