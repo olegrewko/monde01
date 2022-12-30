@@ -13,6 +13,14 @@
 }
 .grey {
   color: grey;
+  padding: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 10px;
+color: grey;
+transition: all .4s;
 }
 .bg-black {
   background-color: black;
@@ -96,25 +104,34 @@ margin-left: 5px;
  color: #DBD9C2; 
 }
 .menu__list-link {
-  padding: 15px 5px 15px;
- 
+padding: 15px 5px 15px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 14px;
-/* letter-spacing: 0.6px; */
-/* color: #373A39; */
 color: #DBD9C2;
-/* color: #2F3035; */
 transition: all .4s;
-z-index: 11;
 }
 .menu__list-link:hover {
  color: tomato; 
- /* border-bottom: 1px solid #FCBB08; */
-
+ 
 }
+.footer__list-link {
+padding: 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 10px;
+color: grey;
+transition: all .4s;
+}
+.footer__list-link:hover {
+ color: tomato; 
+ 
+}
+
 .top__contact {
   max-width: 400px;
   margin: 70px 5px 5px;
@@ -122,19 +139,17 @@ z-index: 11;
 .header__content {
   margin-top: 50px;
   margin: 0 auto;
-  /* background-image: url('../img/Header-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
  
 }
 
-.header__content-inner {
-  min-height: calc(752px - 93px);
+.footer__inner {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;  
+   
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
 }
 .header__title {
@@ -201,6 +216,12 @@ margin-bottom: 62px;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 10px; 
+}
+.social-inner {
+  display: flex;
+  flex-wrap: nowrap;  
+  justify-content: space-between;
+  align-items: center; 
 }
 .septic__left {
   width: 490px;
@@ -966,5 +987,41 @@ align-items: flex-start;
 .video-right {
   max-width: 490px;
   width: 100%;
+}
+.socialmap {
+  padding-top: 0.4rem;
+   max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(8, 32, 46, 0.93);
+}
+.social {
+  background-color: rgba(8, 32, 46, 0.93);
+  /* background-color: #08202E; */
+    /* border-top: 1px solid #636e74; */
+    border-bottom: 0px solid #636e74;
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+  color: #636e74;
+  /* font-weight: 300;
+  font-size: 1rem; */
+}
+.footer {
+ background-color: rgba(8, 32, 46, 0.93); 
+}
+.roll {
+  position: relative;
+  display: inline-block;
+}
+.rollover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.roll .rollover {
+  display: none;
+}
+.roll:hover .rollover {
+  display: block;
 }
 
