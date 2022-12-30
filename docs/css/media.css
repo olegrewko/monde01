@@ -227,6 +227,14 @@ margin-bottom: 65px;
 max-width: 33.33%;
 margin-bottom: 25px;  
 }
+.video-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;  
+}
 }
 @media(max-width: 540px){
  .about__inner {
