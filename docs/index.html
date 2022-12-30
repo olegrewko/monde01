@@ -26,9 +26,9 @@
       <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
-            <!-- <a class="logo" href="#"> -->
+            <a class="logo" href="#body">
             <h3 class="menu__title">izba_500</h3>
-            <!-- </a> -->
+            </a>
             <nav class="menu">
               <button class="menu__btn">
                 <img src="img/menu-btn.svg" alt="" />
@@ -85,7 +85,7 @@
             всех типов
           </h1>
           <h1 class="black">
-            <span style="color: maroon">02&nbsp&nbsp</span>По договорным ценам +
+            <span style="color: maroon">02&nbsp&nbsp</span>по договорным ценам +
             рассрочка платежа
           </h1>
           <h1 class="black">
@@ -1046,31 +1046,6 @@
                     </footer>
                    
   
-                     
-                         <!-- <div class="#">
-                             <p class="tiny-footer"> © All Rights Reserved 2020 | Template Design & Development by
-                                <a  class="grey" href="https://foundation.zurb.com " target="_blank" class="copyrightlink">foundation.zurb.com</a>
-                                 | <a class="grey" href="#home">Home</a></p>
-                         </div> -->
-                    
-                     
-                
-    <!-- <footer class="footer">
-      <div class="footer-top">
-       
-       
-        <div class="footer_contact">
-          <address class="address">
-            Украина, Харьков ул. Тобольская, 63
-            <a class="phone" href="tel:+3806765252222"> (38067) 65 252 222</a>
-            <a class="mail" href="mailto:info@mail.com">info@mail.com</a>
-          </address>
-        </div>
-
-        <a class="totop" href="#body"><img src="img/totop.png" alt="" /></a>
-      </div>
-      <div class="footer-copy"><p>@2020 O...Marketing</p></div>
-    </footer> -->
     <script src="js/jquery.js"></script>
      <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">  
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
@@ -1079,5 +1054,22 @@
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.fancybox.js"></script>
+       <script type="text/javascript">
+      $(document).ready(function () {
+        
+        var defaults = {
+            containerID: 'toTop', 
+          containerHoverID: 'toTopHover', 
+          scrollSpeed: 1200,
+          easingType: 'linear' 
+         };
+        
+        $().UItoTop({
+          easingType: 'easeOutQuart'
+        });
+      });
+    </script>
+  
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> 
   </body>
 </html>
