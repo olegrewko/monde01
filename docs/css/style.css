@@ -11,6 +11,9 @@
 .maroon {
   color: maroon;
 }
+.black {
+  color: black;
+}
 .grey {
   color: grey;
   padding: 0;
@@ -1024,5 +1027,13 @@ align-items: flex-start;
 }
 .roll:hover .rollover {
   display: block;
+}
+.tiny-footer {
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 5px;
 }
 
