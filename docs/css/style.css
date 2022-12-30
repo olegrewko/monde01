@@ -445,7 +445,7 @@ margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;  
+  margin-bottom: 10px;  
 }
 .portfolio__item {
   margin-bottom: 22px;
@@ -924,18 +924,18 @@ padding: 30px 10px;
   margin-bottom: 60px;
 }
 .contact__input {
-  width: 350px;
+  width: 320px;
 height: 60px;
 /* left: 990px;
 top: 965px; */
 
 background: #FFFFFF;
 border: 2px solid tomato;
-border-radius: 5px;
+border-radius: 3px;
 margin-bottom: 10px;
 }
 .contact__submit {
-  width: 188px;
+  width: 320px;
 height: 60px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -947,8 +947,13 @@ border: none;
 
 color: #fff;
 
-background: tomato;
-border-radius: 5px;
+background: black;
+border-radius: 3px;
+transition: all .3s;
+}
+.contact__submit:hover {
+ background: tomato;
+ cursor: pointer; 
 }
 form {
    display: flex;
@@ -956,5 +961,10 @@ form {
 justify-content: space-between;
 align-items: flex-start;
 
+}
+.video-left,
+.video-right {
+  max-width: 490px;
+  width: 100%;
 }
 
