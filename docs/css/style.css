@@ -10,13 +10,20 @@
 }
 .maroon {
   color: maroon;
+  transition: all .4s;
 }
 .black {
   color: black;
 }
+.tiny-grey {
+font-weight: 500;
+font-size: 8px;
+line-height: 10px;
+color: grey;  
+}
 .grey {
   color: grey;
-  padding: 5px;
+  padding: 5px 0;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
@@ -35,6 +42,7 @@ transition: all .4s;
   padding-top: 70px;
 }
 p {
+  
 padding: 5px 0;
 font-family: 'Montserrat';
 font-style: normal;
@@ -52,12 +60,12 @@ a:hover {
   color: tomato;
   cursor: pointer;
 }
-ul,
+/* ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 .container {
   max-width: 1200px;
   padding: 0 10px;
@@ -65,9 +73,13 @@ li {
 
 }
 .container-wrap {
-  margin-left: 100px;
+  /* text-align: center; */
+  margin-left: 150px;
   margin-bottom: 50px;
 }
+/* .container-w {
+text-align: left;
+} */
 .header {
   width: 100%; 
 }
@@ -229,7 +241,8 @@ margin-bottom: 62px;
   display: flex;
   flex-wrap: nowrap;  
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  padding: 10px; 
 }
 .septic__left {
   width: 490px;
@@ -439,12 +452,12 @@ color: #242121;
 padding: 40px 15px 40px;
 margin-bottom: 30px;
 }
-.blockquote {
+/* .blockquote {
   max-width: 660px;
   margin: 0 auto;
   text-align: center;
   font-family: 'Montserrat';
-/* font-style: italic; */
+
 font-weight: 300;
 font-size: 18px;
 line-height: 36px;
@@ -468,7 +481,7 @@ text-align: center;
 
 color: #9E9E9E;
 margin-bottom: 30px;
-}
+} */
 .video-container {
   
   display: flex;
@@ -497,7 +510,7 @@ opacity: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-/* text-align: center; */
+
 letter-spacing: 1.4px;
 
 color: #FFFFFF;
@@ -539,11 +552,7 @@ text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  /* identical to box height */
-  
-  /* display: flex;
-  align-items: flex-end; */
-  
+   
   color: #333333;
   text-align: center;
 }
@@ -563,8 +572,6 @@ font-size: 12px;
 line-height: 24px;
 background: transparent;
 
-/* display: flex;
-align-items: flex-end; */
 text-align: right;
 letter-spacing: 2px;
 
