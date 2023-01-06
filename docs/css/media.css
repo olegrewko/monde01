@@ -237,6 +237,9 @@ margin-bottom: 25px;
 }
 }
 @media(max-width: 540px){
+ .container-wrap {
+  margin-left: 5px;
+} 
  .about__inner {
   display: block;
   

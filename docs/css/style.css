@@ -16,12 +16,12 @@
 }
 .grey {
   color: grey;
-  padding: 0;
+  padding: 5px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
-line-height: 10px;
+font-size: 12px;
+line-height: 14px;
 color: grey;
 transition: all .4s;
 }
@@ -63,6 +63,10 @@ li {
   padding: 0 10px;
   margin: 0 auto;
 
+}
+.container-wrap {
+  margin-left: 100px;
+  margin-bottom: 50px;
 }
 .header {
   width: 100%; 
@@ -126,8 +130,8 @@ padding: 20px 5px 20px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
-line-height: 10px;
+font-size: 12px;
+line-height: 14px;
 color: grey;
 transition: all .4s;
 }
@@ -951,11 +955,9 @@ padding: 30px 10px;
 .contact__input {
   width: 320px;
 height: 60px;
-/* left: 990px;
-top: 965px; */
 
 background: #FFFFFF;
-border: 2px solid tomato;
+border: 2px solid grey;
 border-radius: 3px;
 margin-bottom: 10px;
 }
@@ -964,9 +966,11 @@ margin-bottom: 10px;
 height: 60px;
 font-family: 'Montserrat';
 font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 25px;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: #DBD9C2;
+transition: all .4s;
 border: none;
 
 
@@ -1000,8 +1004,9 @@ align-items: flex-start;
   background-color: rgba(8, 32, 46, 0.93);
 }
 .social {
-  background-color: rgba(8, 32, 46, 0.93);
-  /* background-color: #08202E; */
+   background-color: rgba(69, 69, 69, 1);
+  /* background-color: rgba(8, 32, 46, 0.93); */
+ 
     /* border-top: 1px solid #636e74; */
     border-bottom: 0px solid #636e74;
   padding-top: 0.3rem;
@@ -1011,22 +1016,27 @@ align-items: flex-start;
   font-size: 1rem; */
 }
 .footer {
- background-color: rgba(8, 32, 46, 0.93); 
+   background-color: rgba(69, 69, 69, 1);
+ /* background-color: rgba(8, 32, 46, 0.93);  */
 }
 .roll {
   position: relative;
   display: inline-block;
+  transition: all .4s;
 }
 .rollover {
   position: absolute;
   top: 0;
   left: 0;
+  transition: all .4s;
 }
 .roll .rollover {
   display: none;
 }
 .roll:hover .rollover {
+  transition: all .4s;
   display: block;
+  
 }
 .tiny-footer {
   text-align: center;
