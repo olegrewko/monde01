@@ -44,11 +44,11 @@ transition: all .4s;
 }
 p {
   
-padding: 5px 0;
+padding: 1px 0;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 12px;
+font-size: 10px;
 line-height: 110%;
 /* letter-spacing: 0.6px; */
 color: #373A39;
@@ -231,7 +231,7 @@ margin-bottom: 62px;
  max-width: 250px;
  width: 100%;
  /* margin: 5px; */
- padding: 5px;
+ padding: 1px;
 }
 .septic__inner {
   display: flex;
