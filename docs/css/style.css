@@ -39,7 +39,8 @@ transition: all .4s;
   padding: 2px;
 }
 .project__title {
-  padding-top: 70px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 p {
   
@@ -215,7 +216,8 @@ margin-bottom: 62px;
   display: flex;
   flex-wrap: nowrap;  
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 0px;
   margin-bottom: 10px;
    
 }
