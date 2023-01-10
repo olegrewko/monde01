@@ -634,6 +634,7 @@ color: #373A39;
 }
 .slick-dots {
   display: flex;
+  justify-content: center;
 }
 .slick-dots button {
 width: 16px;
