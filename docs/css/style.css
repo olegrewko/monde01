@@ -115,13 +115,13 @@ text-align: left;
    display: flex;
    
 }
-.menu__list-item {
+/* .menu__list-item {
 margin-left: 5px;
-}
-
-/* .menu__list-item + .menu__list-item {
-  margin-left: 10px;
 } */
+
+.menu__list-item + .menu__list-item {
+  margin-left: 10px;
+}
 .menu__title {
  color: #DBD9C2; 
 }
