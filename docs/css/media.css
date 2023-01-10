@@ -109,11 +109,11 @@ line-height: 20px;
   justify-content: center;
   align-items: center;
 }
-.blockquote {
+/* .blockquote {
 padding: 0 10px;
 font-size: 12px;
 line-height: 12px;
-}
+} */
 .portfolio__numbers-item  {
 
 font-size: 20px;
@@ -145,14 +145,14 @@ line-height: 10px;
   transform: translateY(0);
 }
 ul.menu__list {
-  padding: 15px;
+  padding: 5px;
 }
 .menu__list-item + .menu__list-item {
   margin-left: 0;
 }
 .menu__list-link {
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 .header__title {
        font-size: 54px;
