@@ -46,8 +46,8 @@ transition: all .4s;
   padding: 2px;
 }
 .project__title {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 p {
   
