@@ -145,7 +145,7 @@ line-height: 10px;
   transform: translateY(0);
 }
 ul.menu__list {
-  padding: 20px;
+  padding: 15px;
 }
 .menu__list-item + .menu__list-item {
   margin-left: 0;

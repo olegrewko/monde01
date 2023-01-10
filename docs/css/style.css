@@ -2,7 +2,14 @@
   box-sizing: border-box;
 }
 .project,
-.job {
+.job,
+.job02,
+.septic,
+.blog,
+.video,
+.team,
+.contact
+ {
   padding-top: 50px;
  }
 .yellow {
@@ -678,7 +685,7 @@ right: -95px;
 
 }
 .team {
-  padding: 120px 0 130px;
+  padding: 80px 0 30px;
 }
 .team-title {
   margin-bottom: 100px;
