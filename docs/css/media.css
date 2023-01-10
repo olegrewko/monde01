@@ -103,17 +103,13 @@ line-height: 20px;
 
 
 }  
-.portfolio__numbers {
-  /* display: block; */
+/* .portfolio__numbers {
+ 
    display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .blockquote {
-padding: 0 10px;
-font-size: 12px;
-line-height: 12px;
-} */
+
 .portfolio__numbers-item  {
 
 font-size: 20px;
@@ -125,10 +121,10 @@ line-height: 23px;
 font-size: 8px;
 line-height: 10px;
 
-}
+} */
 
 .menu__list {
-  
+  /* height: 70vh; */
   position: absolute;
   left: 0;
   right: 0;
@@ -145,7 +141,7 @@ line-height: 10px;
   transform: translateY(0);
 }
 ul.menu__list {
-  padding: 15px;
+  padding: 10px;
 }
 .menu__list-item + .menu__list-item {
   margin-left: 0;
@@ -170,7 +166,7 @@ ul.menu__list {
   padding: 0;
   cursor: pointer;
   margin-top: 15px;
-  margin-bottom: 10px;;
+  margin-bottom: 12px;;
 }
 .expertise__items {
   display: block;

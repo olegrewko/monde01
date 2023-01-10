@@ -971,16 +971,17 @@ padding: 30px 10px;
   margin-bottom: 60px;
 }
 .contact__input {
-  width: 320px;
+  width: 300px;
 height: 60px;
 
 background: #FFFFFF;
 border: 2px solid grey;
 border-radius: 3px;
 margin-bottom: 10px;
+padding: 0 10px;
 }
 .contact__submit {
-  width: 320px;
+  width: 300px;
 height: 60px;
 font-family: 'Montserrat';
 font-style: normal;
