@@ -49,6 +49,9 @@ transition: all .4s;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.text-black {
+ margin-bottom: 20px; 
+}
 p {
   
 padding: 1px 0;

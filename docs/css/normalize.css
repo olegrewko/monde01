@@ -367,3 +367,8 @@ li {
 /* section {
   margin-bottom: 50px;
 } */
+h6, 
+h5 {
+  padding: 0;
+  margin: 0;
+}
