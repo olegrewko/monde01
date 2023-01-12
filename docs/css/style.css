@@ -22,6 +22,9 @@
 .black {
   color: black;
 }
+.pantony {
+  color: #134169;
+}
 .tiny-grey {
 font-weight: 500;
 font-size: 8px;
@@ -226,9 +229,18 @@ margin-bottom: 62px;
   display: flex;
   flex-wrap: nowrap;  
   justify-content: space-around;
-  align-items: flex-end;
-  margin-top: 0px;
+  align-items: flex-start;
+  margin-top: 10px;
   margin-bottom: 10px;
+   
+}
+.project__inner {
+  display: flex;
+  flex-wrap: nowrap;  
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 0px;
    
 }
 .cell {
@@ -465,36 +477,7 @@ color: #242121;
 padding: 40px 15px 40px;
 margin-bottom: 30px;
 }
-/* .blockquote {
-  max-width: 660px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Montserrat';
 
-font-weight: 300;
-font-size: 18px;
-line-height: 36px;
-
-display: flex;
-align-items: center;
-
-
-color: #242121;
-margin-bottom: 30px;
-}
-.blockquote_a {
-  display: block;
-  font-family: 'Montserrat';
-
-font-weight: 300;
-font-size: 14px;
-line-height: 32px;
-
-text-align: center;
-
-color: #9E9E9E;
-margin-bottom: 30px;
-} */
 .video-container {
   
   display: flex;
