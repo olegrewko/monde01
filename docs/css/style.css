@@ -225,7 +225,8 @@ padding-top: 170px;
 .header__icon {
 margin-bottom: 62px;
 }
-.about__inner {
+.about__inner
+ {
   display: flex;
   flex-wrap: nowrap;  
   justify-content: space-around;
@@ -234,14 +235,21 @@ margin-bottom: 62px;
   margin-bottom: 10px;
    
 }
-.project__inner {
+.project__inner,
+.cell
+ {
   display: flex;
   flex-wrap: nowrap;  
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   margin-top: 10px;
   margin-bottom: 0px;
    
+}
+.about__cell {
+ max-width: 500px;
+ width: 100%;
+ margin: 5px;
 }
 .cell {
  max-width: 500px;

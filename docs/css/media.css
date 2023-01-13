@@ -77,6 +77,11 @@ align-items: center;
 }
 
 @media(max-width: 768px){
+ .about__inner,
+ .cell {
+  display: block;
+  
+}  
 .clients__list {
   min-height: 592px;
 display: flex;
@@ -103,25 +108,7 @@ line-height: 20px;
 
 
 }  
-/* .portfolio__numbers {
- 
-   display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.portfolio__numbers-item  {
-
-font-size: 20px;
-line-height: 23px;
-
-}
-.portfolio__numbers-item span  {
-
-font-size: 8px;
-line-height: 10px;
-
-} */
 
 .menu__list {
   /* height: 70vh; */
@@ -236,10 +223,11 @@ margin-bottom: 25px;
  .container-wrap {
   margin-left: 5px;
 } 
- .about__inner {
+ /* .about__inner,
+ .cell {
   display: block;
   
-}  
+}   */
 ul.footer__social {
  display: block;
 width: 100%;
