@@ -4,6 +4,7 @@
 .project,
 .job,
 .job02,
+.job03,
 .septic,
 .blog,
 .video,
@@ -12,6 +13,9 @@
  {
   padding-top: 50px;
  }
+.job02 a:hover {
+  color: black;
+}
 .yellow {
   color: #f9ce00;
 }
@@ -261,7 +265,7 @@ margin-bottom: 62px;
  max-width: 250px;
  width: 100%;
  /* margin: 5px; */
- padding: 1px;
+ padding: 5px;
 }
 .septic__inner {
   display: flex;

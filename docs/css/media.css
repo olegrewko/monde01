@@ -219,15 +219,18 @@ margin-bottom: 25px;
   margin-bottom: 30px;  
 }
 }
-@media(max-width: 540px){
+@media(max-width: 440px){
  .container-wrap {
   margin-left: 5px;
-} 
- /* .about__inner,
+}
+ .project__inner, 
+ 
  .cell {
   display: block;
   
-}   */
+}
+
+
 ul.footer__social {
  display: block;
 width: 100%;
