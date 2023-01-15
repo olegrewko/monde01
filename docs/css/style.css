@@ -48,6 +48,7 @@ transition: all .4s;
 }
 .bg-black {
   background-color: black;
+  color: white;
 }
 .fotorama {
   padding: 2px;
