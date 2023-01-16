@@ -311,6 +311,13 @@ position: relative;
   background: #FCBB08;
 } */
 
+.z__left {
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  
+}
 .z__center {
   max-width: 800px;
   width: 100%;
