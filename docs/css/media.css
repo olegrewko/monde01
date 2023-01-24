@@ -136,7 +136,9 @@ ul.menu__list {
 .menu__list-item + .menu__list-item {
   margin-left: 0;
 }
-.menu__list-link {
+.menu__list-link,
+.menu__list-link--yellow
+ {
   display: block;
   padding: 17px;
 }
