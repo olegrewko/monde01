@@ -278,6 +278,13 @@ transition: all .4s;
 
  padding: 5px;
 }
+.heat__inner {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px; 
+}
 .septic__inner {
   display: flex;
   flex-wrap: nowrap;  
