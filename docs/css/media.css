@@ -120,7 +120,7 @@ line-height: 20px;
   right: 0;
   top: 55px;
   /* background-color: #f2f2f2; */
-  background-color: rgba(69, 69, 69, 1);
+  background-color: rgba(69, 69, 69, 0.95);
   display: block;
   text-align: left;
   transform: translateY(-200%);
