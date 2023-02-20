@@ -40,7 +40,7 @@
 .project,
 .job,
 .job02,
-.job03,
+.heat,
 .septic,
 .blog,
 .video,
@@ -277,6 +277,13 @@ transition: all .4s;
  width: 100%;
 
  padding: 5px;
+}
+.heat__inner {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px; 
 }
 .heat__inner {
   display: flex;
