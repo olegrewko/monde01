@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -26,7 +26,7 @@
    
    <link rel="stylesheet" href="../dist/css/main.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-       <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
@@ -1353,9 +1353,9 @@
       </div>
     </section>
 
-    <section class="connection" id="contact">
+    <!-- <section class="connection" id="contact">
       <div class="container">
-        <h3 class="project__title">Contact</h3>
+        <h3 class="project__title">Contact Us</h3>
         <p class="black">
         Найдите нас на карте, чтобы легко добраться до нашего офиса.
         </p>  
@@ -1393,6 +1393,44 @@
           </div>
         </div>
       </div>
+    </section> -->
+     <section class="container contact-grid-w100" id="contact">
+      <div class="contact-grid__content">
+
+
+        <h3 class="contacts__title">Send Us a Message</h3>
+        <p class="contacts__subtitle">
+          Have some suggestions or just want to say hi.<br />
+          Contact Us.
+        </p>
+      </div>
+      <form class="contacts__form">
+
+        <input
+          class="contacts__input"
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name"
+        />
+        <input
+          class="contacts__input"
+          type="text"
+          id="femail"
+          name="firstemail"
+          placeholder="Your email"
+        />
+        <textarea
+          class="contacts__input"
+          id="subject"
+          name="subject"
+          placeholder="Your Message"
+          style="height: 90px; width: 100%"
+        ></textarea>
+
+        <input class="contacts__submit" type="submit" value="Send" />
+
+      </form>
     </section>
     <section class="socialmap">
       <div class="container">
