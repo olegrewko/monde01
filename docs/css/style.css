@@ -789,7 +789,7 @@ transition: all .4s;
  {
   display: flex;
   flex-wrap: nowrap;  
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   margin-top: 10px;
   margin-bottom: 0px;
