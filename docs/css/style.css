@@ -1048,7 +1048,7 @@ form:focus-within {
   margin: 0 auto;
   text-align: center;
   padding-top: 0.4rem;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 100%;
   background-color: #071e26;
   /* display: flex;
