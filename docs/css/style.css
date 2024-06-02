@@ -877,9 +877,13 @@ transition: all .4s;
   margin-bottom: 10px;  
 }
 
-.slider-blog {
+/* .slider-blog {
   background-color: rgba(4, 4, 4, 1);
   padding: 15px 0;
+} */
+.slider-blog__inner {
+ background-color: rgba(4, 4, 4, 1); 
+ padding: 15px 0;
 }
 .slider-blog__item {
   padding: 0;
